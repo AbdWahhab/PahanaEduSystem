@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Containers */
+.login-container,
+.register-container,
+.edit-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+/* Text, password, email, phone, number, date, and dropdowns */
+input[type=text],
+input[type=password],
+input[type=phone],
+input[type=email],
+input[type=number],
+input[type=date],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Dropdown styling */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='14' viewBox='0 0 24 24' width='14' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 14px;
+    cursor: pointer;
+}
+
+/* Submit button */
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a3d6d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #2a5599;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Error & message */
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.message {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Stock info box (for Create Bill form) */
+.stock-info {
+    font-size: 13px;
+    color: #555;
+    margin: 5px 0 10px 0;
+}
